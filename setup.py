@@ -8,7 +8,7 @@ setup(
     name="gsub",
     description="Replacement for git-submodule",
 
-    version="0.1.4",
+    version="0.1.5",
 
     author="Amit Upadhyay",
     author_email="code@amitu.com",
@@ -17,7 +17,7 @@ setup(
     license="BSD",
 
 
-    install_requires=["click==6.6", "six"],
+    install_requires=["click", "six"],
 
     packages=['gsub'],
     zip_safe=True,
